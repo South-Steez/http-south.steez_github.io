@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Njerere - Data Scientist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        header {
+            background-color: #ff4d4d;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .about-me, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #333333;
+        }
+        .about-me p, .projects p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .project-item {
+            background-color: #f0f0f0;
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 5px solid #007bff;
+        }
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ryan Njerere</h1>
+        <p>Data Scientist</p>
+    </header>
+
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about-me" class="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I'm Ryan Njerere, a passionate Data Scientist with expertise in transforming data into actionable insights. With a strong background in statistical analysis, machine learning, and data visualization, I aim to solve complex problems and drive decision-making processes through data.</p>
+            <p>My journey in data science began with a curiosity for understanding patterns and making sense of large datasets. Over the years, I've honed my skills in various programming languages and analytical tools, continuously seeking to expand my knowledge and stay updated with the latest industry trends.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Project 1: Customer Segmentation Analysis</h3>
+                <p>Utilized clustering algorithms to segment customers based on purchasing behavior, leading to targeted marketing strategies and increased customer retention.</p>
+            </div>
+            <div class="project-item">
+                <h3>Project 2: Predictive Maintenance</h3>
+                <p>Developed a predictive maintenance model using machine learning to forecast equipment failures, resulting in reduced downtime and maintenance costs.</p>
+            </div>
+            <div class="project-item">
+                <h3>Project 3: Sales Forecasting</h3>
+                <p>Implemented time series analysis techniques to forecast sales, enabling the company to optimize inventory management and improve supply chain efficiency.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+            <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ryan Njerere. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
